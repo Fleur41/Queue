@@ -12,3 +12,13 @@ class Queue:
     
     def is_empty(self):
         return not self.items
+    
+    def enqueue(self, item):
+        self.items.append(item)
+
+    def dequeue(self):
+        return self.items.pop(0)
+    
+    
+
+    
